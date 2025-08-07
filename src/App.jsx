@@ -6,22 +6,20 @@ import Reservation from './pages/Reservation'
 import Events from './pages/Events'
 import Contacts from './pages/Contacts'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import './index.css'
 
 function App() {
-
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/reservation" element={<Reservation />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/contacts" element={<Contacts />} />
-        </Routes>
-      </Router>
-    </>
+    <Router basename="/restaurant-react-aap">
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/reservation" element={<Reservation />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/contacts" element={<Contacts />} />
+      </Routes>
+    </Router>
   )
 }
 
