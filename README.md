@@ -107,32 +107,29 @@ This app is deployed using **[Vercel](https://vercel.com/)**. To deploy your own
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page ](public\home.png)
+![Home Page](public/home.png)
 
 ### Book Table Of the restaurant
-![Book Table  ](public\bookt.png)
-
+![Book Table](public/bookt.png)
 
 ### View Booked Table Of the restaurant
-![Book Table  ](public\vTable.png)
-
+![Book Table](public/vTable.png)
 
 ### Book Table Of the restaurant
-![Layout Of The restaurant ](public\tables-map.png)
+![Layout Of The restaurant](public/tables-map.png)
 
 ### Menu Section
-![Menu Section  ](public\menu.png)
+![Menu Section](public/menu.png)
 
 ### Foods Slides
-![Food Menu  ](public\sp.png)
+![Food Menu](public/sp.png)
 
-
-### Foods Slides
-![ABout  ](public\ab.png)
-
+### About Section
+![About](public/ab.png)
 
 ### Footer Section
-![Footer Section ](public\ft.png)
+![Footer Section](public/ft.png)
+
 
 
 
