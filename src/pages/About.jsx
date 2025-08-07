@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Star, Award, Heart, Leaf, Clock, Users, ChefHat, Trophy, Quote, Play } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Breadcrumb from '../components/BreadCrumb';
+import Breadcrumb from '../components/Breadcrumb';
 import TopBar from '../components/TopBar';
 
 const About = () => {
