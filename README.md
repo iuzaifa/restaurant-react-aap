@@ -136,8 +136,8 @@ This app is deployed using **[Vercel](https://vercel.com/)**. To deploy your own
 
 
 
-## ✨ Author
 
-Developed by **\[Abu Huzaifa]**
-[LinkedIn](https://linkedin.com/iiuzaifa) • [GitHub](https://www.linkedin.com/in/iiuzaifa/)
+Developed by **Abu Huzaifa**  
+[LinkedIn](https://www.linkedin.com/in/iiuzaifa/) • [GitHub](https://github.com/iuzaifa)
+
 
