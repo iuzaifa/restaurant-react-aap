@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.bg-breadcrumb-image {
+    background-image: url('./assets/bg-images/food1.jpg');
+    background-color: black;
+}
+
+.hide-scrollbar {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #d97706 !important;
+    /* amber-600 */
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+/* Customize pagination */
+.swiper-pagination-bullet-active {
+    background: #d97706 !important;
+    /* amber-600 */
+}
