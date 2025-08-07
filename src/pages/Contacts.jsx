@@ -3,8 +3,10 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import AddressComponent from '../components/AddressComponent'
 import ContactForm from '../components/ContactFrom'
-import Breadcrumb from '../components/BreadCrumb'
+// import Breadcrumb from '../components/BreadCrumb'
 import TopBar from '../components/TopBar';
+import Breadcrumb from '../components/Breadcrumb';
+
 
 const Contacts = () => {
   return (
