@@ -10,7 +10,7 @@ import './index.css'
 
 function App() {
   return (
-    <Router basename="/restaurant-react-aap">
+    <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/menu" element={<Menu />} />

@@ -2,10 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Calendar, Clock, Users, Check, X, Phone, Mail, Edit, Trash2, Filter, Search, Plus } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import TopBar from '../components/TopBar';
-// import BreadCrumb from '../components/BreadCrumb';
-// import Breadcrumb from '../components/Breadcrumb';
-
 import Footer from '../components/Footer';
+import Breadcrumb from '../components/Breadcrumb';
 
 
 
@@ -179,9 +177,9 @@ const Reservation = () => {
     <>
       <TopBar />
       <Navbar />
-      <BreadCrumb currentPage="Reservation" moverUrl="/"/>
+      <Breadcrumb currentPage="Reservation" moverUrl="/"/>
 
-      <div className="min-h-screen bg-gradient-to-br bg-gray-800">
+      <div className="min-h-screen bg-gradient-to-br bg-gray-700">
         <div className="bg-black/20 backdrop-blur-sm border-b border-white/10">
           <div className="max-w-7xl mx-auto px-6 py-6">
             <h1 className="text-4xl font-bold text-white mb-2">Bite Restaurant</h1>

@@ -5,11 +5,11 @@ import { contactInfo } from '../data/menuItems';
 
 const TopBar = () => {
     return (
-        <div className="bg-gradient-to-r bg-gray-900 via-gray-800 to-orange-900 text-gray-600 py-1 px-4 text-sm hidden lg:block">
+        <div className="bg-gradient-to-r bg-gray-900 via-gray-800 text-gray-400 py-1 px-4 text-sm hidden lg:block">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <div className="flex items-center gap-8">
                     <div className="flex items-center gap-2 hover:text-white transition-colors">
-                        <Phone size={14} className="text-gray-300" />
+                        <Phone size={14} className="text-gray-100" />
                         <span className="font-medium">{contactInfo.phone}</span>
                     </div>
                     <div className="flex items-center gap-2 hover:text-white transition-colors">
